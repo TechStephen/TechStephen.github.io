@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<h2>Stephen Schmitz, ITIS3135, Forms Webpage</h2>
+	<style>
+		.formbody {
+			background-color: rgb(119, 126, 134);
+		}
+
+		.formstyle {
+			display: flex;
+			flex-direction: row;
+			padding-left: 200px;
+		}
+
+		.formstyle h4,
+		.formcolor h4 {
+			margin-left: 100px;
+		}
+
+		.formstyle input {
+			height: 80%;
+			margin: 20px 0 0 600px;
+		}
+
+		.formcolor {
+			display: flex;
+			flex-direction: row;
+			padding-left: 200px;
+		}
+
+		.formcolor input {
+			margin: 22.5px 0 0 100px;
+		}
+
+		.formcolor label {
+			margin-top: 20px;
+			padding-left: 10px;
+		}
+
+		.formsubmit {
+			display: flex;
+			flex-direction: row;
+			padding-left: 200px;
+		}
+
+		.formbody button {
+			height: 20px;
+			margin-top: 22.5px;
+			margin-left: 700px;
+			color: white;
+			background-color: black;
+		}
+	</style>
+</head>
+
+<body class="formbody">
+	<header>
+		<h1>Stephen Schmitx >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="home.html">Home</a>
+        ||
+		<a href="introduction.html">Introduction</a>
+        ||
+        <a href="tables.html">Tables</a>
+        ||
+        <a href="form.html">Form</a>
+        ||
+        <a href="website_evaluations.html">WebsiteEvals</a>
+        ||
+        <a href="first-scripts.html">First Script</a>
+        ||
+        <a href="calculator_try.html">Calculator</a>
+	</nav>
+
+	<main>
+		<form>
+			<h3>Form</h3>
+
+			<div class="formstyle">
+				<h4>Name</h4>
+				<input type="name" required size="50px" placeholder="Stephen Schmitz"><br>
+			</div>
+
+			<div class="formstyle">
+				<h4>Email</h4>
+				<input type="email" required size="50px" placeholder="Stephen@gmail.com"><br>
+			</div>
+
+			<div class="formstyle">
+				<h4>Phone Number</h4>
+				<input type="number" required size="50px" placeholder="704-444-4444"><br>
+			</div>
+
+			<div class="formcolor">
+				<h4>Favorite Color</h4>
+				<input type="checkbox" name="colors" value="blue">
+				<label for="colors">blue</label>
+				<input type="checkbox" name="colors" value="red">
+				<label for="colors">red</label>
+				<input type="checkbox" name="colors" value="green">
+				<label for="colors">green</label>
+				<input type="checkbox" name="colors" value="other">
+				<label for="colors">other</label>
+			</div>
+
+			<radiobutton type="submit">Submit</radiobutton>
+		</form>
+	</main>
+
+	<footer>
+		<br />
+		<nav>
+			<a href="http://webpages.uncc.edu/dvonbri1/" target="_blank">Charlotte.edu</a> &#9553;
+			<a href="https://github.com/TechStephen" target="_blank">Github</a> &#9553;
+			<a href="https://sschmi5.github.io/" target="_blank">Github.io</a> &#9553;
+			<a href="https://sschmi15.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+			<a href="https://www.freecodecamp.org/fcc445b1ebc-9400-4827-9bfc-d7b1c22887e3/"
+				target="_blank">freeCodeCamp</a> &#9553;
+		</nav>
+		<br />
+		<p>
+			Page built by Stephen Schmitz
+		</p>
+		<a href="https://validator.w3.org/check?uri=https://webpages.uncc.edu/sschmi15/itis3135/form.html">
+			<img src="images/download.png" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check?uri=https://webpages.uncc.edu/sschmi15/itis3135/form.html">
+			<img src="images/175-1759459_eng-a-med-kamel-frameworks-css-css-logo" width="88" height="31"
+				alt="Link to CSS validator">
+		</a>
+
+	</footer>
+
+</body>
+
+</html>

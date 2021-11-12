@@ -1,0 +1,163 @@
+.introductionbody
+{
+	font-family: tahoma;
+	color: skyblue ;
+	background-color: rgb(119, 126, 134);
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1, h2, h3
+{
+	font-family: Cambria, Cochin, Georgia, serif;
+	text-align: center;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: skyblue;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: skyblue;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
+
+/* Table Style */
+
+.tablebody
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: purple;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: magenta;
+}
+
+/* Form Styling */
+
+.formbody {
+	background-color: rgb(119, 126, 134);
+}
+
+.formstyle {
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
+}
+
+.formstyle h4, .formcolor h4 {
+	margin-left: 100px;
+}
+
+.formstyle input {
+	height: 80%;
+	margin: 20px 0 0 600px;
+}
+
+.formcolor {
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
+}
+
+.formcolor input {
+	margin: 22.5px 0 0 100px;
+}
+
+.formcolor label {
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.formsubmit {
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
+}
+
+.formbody button {
+	height: 20px;
+	margin-top: 22.5px;
+	margin-left: 700px;
+	color: white;
+	background-color: black;
+}
+
+/* Webpage Eval CSS */
+
+.eval-main {
+	text-align: center;
+}
+
+.eval-main .eval-evaluations {
+	position: relative;
+	padding-top: 20px;
+}
+
+.eval-links {
+	color: black;
+}
+
+.eval-links:hover{
+	color: black;
+}
+
+/* First Script */
+
+.firstscriptmain {
+	text-align: center;
+	font-weight: bold;
+}
+
